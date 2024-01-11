@@ -326,6 +326,39 @@ footer textarea{
 /* mobile device */
 
 @media screen and (max-width:597px) {
+    .header{
+        background-image: none;
+        /* border: 0; */
+    }
+    .main-nav{
+        /* width: 100%; */
+        flex-direction: column;
+    }
+    .main-nav>ul{
+        flex-direction: column;
+    }
+    .main-nav>ul li{
+        margin-bottom: 10px;
+    }
+    .main-nav button {
+        width: 120px;
+        font-size: 16px;
+        text-align: center;
+        padding: 15px;
+    }
+    .banner{
+    flex-direction: column;
+    padding: 20px;
+    }
+    .banner-content{
+        margin-bottom: 20px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .button-cv{
+        margin-bottom: 20px;
+    }
     .about{
         padding: 10px;
     }
